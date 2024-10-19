@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+    <title>Checkout - Cartier</title>
+
+</head>
+<body>
+    <div class="header">
+        <h1 id="logo">Cartier</h1>
+        <div class="symbol"><img src="pngwing.com (2).png" height="100px"></div>
+        <div class="cart">
+            <button style="background: none; border: none;"><a href="https://www.cartier.com/en-us/home"><img src="local_mall_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" height="40px"></a></button>
+        </div>
+    </div>
+    <hr>
+    <form method="post">
+        <div class="contact">
+            <h2 id="contactlabel">Contact</h2>
+            <input id="contactinps" type="text" name="contact" placeholder="Email or mobile phone number" size="50"><br>
+            <input type="checkbox" name="newsOffer" value="yes"> 
+            <text id="emailme">Email me with news and offer</text>
+        </div>
+        <hr class="solid">
+        <div class="delivery">
+            <h2 id="Delivery">Delivery</h2>
+            <select name="country">
+                <option value="ina">Indonesia</option><br>
+                <option value="irq">Iraq</option><br>
+                <option value="ice">Iceland</option><br>
+                <option value="isl">Isle of Man</option><br>
+                <option value="ita">Italy</option><br>
+                <option value="jam">Jamaica</option><br>
+                <option value="jpn">Japan</option><br>
+                <option value="jsy">Jersey</option><br>
+            </select>
+            <br>
+            <input type="text" name="firstName"placeholder="First Name (optional)">
+            <input type="text" name="lastName" placeholder="Last Name">
+            <br>
+            <text style="font-family: Arial, Helvetica, sans-serif;">Phone Number:</text> <select name="course" > 
+            <option value="ina">+62</option><br>
+            <option value="usa">+1</option><br>
+            <option value="northAfrica">+2</option><br>
+            </select>
+            <input name="phoneNumber" type="text">
+            <br>
+            <textarea name="address" rows="4" cols="53" placeholder="Address" style="font-family: Arial, Helvetica, sans-serif;"></textarea>
+            <br>
+            <div class="radiobutton">
+                <text style="font-family: Arial, Helvetica, sans-serif;">Assurance: </text>
+                <input type="radio" id="yes" name="assurance?" value="Yes">
+                <label for="yes" style="font-family:Arial, Helvetica, sans-serif ;">Yes</label>
+                <input type="radio" id="no" name="assurance?" value="No">
+                <label for="no" style="font-family: Arial, Helvetica, sans-serif;">No</label>
+            </div>
+            <br>
+            <input id="submit" type="submit" value="Submit">
+            <input id="reset" type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>

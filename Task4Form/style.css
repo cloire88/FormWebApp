@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    margin-left: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 2.5em;
+    font-family: "Gowun Batang", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cart{
+    margin-top: 3.5svh;
+    margin-right: 3.5svh;
+}
+.symbol{
+    margin-left: -15svh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+#contactlabel{
+    font-family: "Gothic A1";
+    font-weight: 450;
+    font-size: x-large;
+}
+.contact{
+    margin-left: 2em;
+    margin-top: 4em;
+    margin-bottom: 3em;
+    margin-right: 2em;
+}
+#contactinps{
+    width: 27em;
+    height: 3em;
+}
+.delivery{
+    margin-left: 2em;
+    margin-top: 2em;
+}
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+#Delivery{
+    font-family: "Gothic A1";
+    font-weight: 450;
+}
+#emailme{
+    font-family: Arial, Helvetica, sans-serif;
+}
+textarea{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+hr.solid {
+    border-top: 3px solid #bbb;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#yes{
+    margin-left: 1em;
+}
+#no{
+    margin-left: 1em;
+}
+#submit{
+    padding: 6px 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: 90px;
+    height: 35px;
+}
+#reset{
+    padding: 6px 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: 90px;
+    height: 35px;
+    margin: 0 0 0 2px;
+}
